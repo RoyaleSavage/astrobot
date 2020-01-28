@@ -1,2 +1,1 @@
-# astrobot
-Discord bot of Astro server
+# bot1bc
