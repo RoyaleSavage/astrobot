@@ -24,7 +24,7 @@ client.on('ready', () => {
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus("dnd");
-  client.user.setActivity(`Test`, { type: "Managing Astro Services Discord" });
+  client.user.setActivity(`Astro Services Discord`, { type: "Watching" });
 });
 
 client.login(process.env.BOT_TOKEN);
