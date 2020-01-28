@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("RoyaleSavage#6176");
-var prefix = "=";
+var prefix = "+";
 client.on("message", message => {
 
-            if (message.content.startsWith(prefix + "bc")) {
+            if (message.content.startsWith(prefix + "dm")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
@@ -24,7 +24,7 @@ client.on('ready', () => {
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus("dnd");
-  client.user.setActivity(`Test`, { type: "Watching" });
+  client.user.setActivity(`Test`, { type: "Managing Astro Services Discord" });
 });
 
 client.login(process.env.BOT_TOKEN);
